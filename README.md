@@ -15,3 +15,10 @@ stored in the database.
 4. viewOrders.php: allows the admin to view customers’ orders in a table. The
 table should have 4 columns (order date – customer email – order number –
 Total price) and should be sorted in descending order.
+
+The customer interface:
+1. index.php: will contain the website name and a login form for customers
+2. register.php: will contain the registration form
+3. home.php: will contain the available products
+4. product.php: when the user clicks on a certain product, all product information will appear on this page, and a button to add the product to the shopping cart
+5. cart.php: will contain the products added to the shopping cart.
