@@ -1,0 +1,330 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.header {
+    background-color: rgb(214, 236, 214);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.header img {
+    height: 70px;
+}
+
+.header-btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header a {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+
+.header-btns a:first-child {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+
+
+.header a:last-child {
+    margin: 0;
+}
+
+.header-center {
+    text-align: center;
+}
+
+.product-container {
+    width: 50%;
+    margin: 50px auto 0;
+    background-color: #d5dcd8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.product-info {
+    text-align: center;
+    color: #333;
+}
+
+.product-info img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.product-info p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product-info input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.product-info input[type="submit"]:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+.add_product_btn{
+  
+    width: 100%;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    background: rgb(65, 64, 64);
+    color: rgb(186, 227, 186);
+    cursor: pointer;
+    text-align: center; 
+    text-transform: uppercase;
+    display: block;
+ }
+ 
+ .add_product_btn:hover {
+    background: rgb(186, 227, 186);
+    color: rgb(65, 64, 64);
+ }
+ 
+ .message {
+    /* background: var(--bg-color); */
+    padding: 1.5rem 1rem;
+    font-size: 2rem;
+    color: rgb(65, 64, 64);
+    margin-bottom: 2rem;
+    text-align: center;
+    display: block;
+ }
+ 
+ .add_product_container {
+    max-width: 1200px;
+    padding: 4rem;
+    margin: 0 auto; 
+ }
+ 
+ .inner_add_product_container.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200vh;
+ }
+ 
+ 
+ .inner_add_product_container form {
+    
+    max-width: 50rem;
+    margin:0 auto;
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow: 0 6px 12px rgb(97, 95, 95);
+    background: rgb(214, 236, 214);
+ 
+ }
+ 
+ .inner_add_product_container form h3 {
+    text-transform: uppercase;
+    color: rgb(65, 64, 64);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.5rem; 
+ }
+ 
+ .inner_add_product_container form .box {
+    width: 100%;
+    border-radius: .5rem;
+    padding:1.2rem 1.5rem;
+    font-size: 1.7rem;
+    margin:1rem 0;
+    background: rgb(255, 252, 252);
+    text-transform: none; 
+ }
+ 
+ .display_product {
+    margin: 2rem 0;
+ }
+ 
+ 
+ .display_product .display_product_table {
+    width: 100%;
+    text-align: center;
+    color: rgb(65, 64, 64);
+    background-color: rgb(214, 236, 214);
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow: 0 6px 12px rgb(97, 95, 95);
+ }
+ 
+ .display_product .display_product_table th{
+    padding:1rem;
+    font-size: 2rem;
+ }
+ 
+ 
+ .display_product .display_product_table td{
+    padding:rem;
+    font-size: 2rem;
+ }
+ 
+ 
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border: 3px solid rgb(97, 95, 95);
+    padding: 10px;
+}
+
+
+.form_container {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 22px;
+    padding-bottom: 62px;
+    display: flex;
+}
+
+.form_container form {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 6px 12px rgb(97, 95, 95);
+    background: rgb(214, 236, 214);
+    text-align: center;
+    width: 500px;
+}
+
+.form_container h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(55, 49, 49);
+    text-transform: uppercase;
+}
+
+.form_container form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 9px 0;
+    background: rgb(255, 252, 252);
+    color: rgb(97, 95, 95);
+    border-radius: 5px;
+}
+
+
+.form_container form .form_btn {
+    background: rgb(97, 95, 95);
+    color: rgb(255, 252, 252);
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form_container .form_btn:hover {
+    background: rgb(255, 252, 252);
+    color: rgb(97, 95, 95);
+}
+
+.form_container form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(97, 95, 95);
+}
+
+.form_container form p a {
+    color: rgb(48, 46, 46);
+    font-weight: bold;
+}
+
+.form_container form .error_message {
+    margin: 10px 0;
+    background: rgb(189, 36, 36);
+    color: rgb(252, 252, 252);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+}
+
+#Error {
+    visibility: hidden;
+    margin: 10px 0;
+    background: rgb(189, 36, 36);
+    color: rgb(252, 252, 252);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+}
+
+.Pbtn{
+
+    width: 20%;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    background: rgb(65, 64, 64);
+    color: rgb(186, 227, 186);
+    cursor: pointer;
+    text-align: center; 
+    text-transform: uppercase;
+    display: block;
+}
+
+.Pbtn:hover{
+    background: rgb(186, 227, 186);
+    color: rgb(65, 64, 64);
+}
+
+.removeB{
+    color: red;
+    width: 5%;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    background: rgb(65, 64, 64);
+    color: rgb(186, 227, 186);
+    cursor: pointer;
+    text-align: center; 
+    text-transform: uppercase;
+    display: block;  
+}
+ 
+ 
