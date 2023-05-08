@@ -1,4 +1,4 @@
 # Web-Project
-Bookstore 
+
 In this project, I implement an online book store, providing customers with a convenient means of browsing and purchasing books over the Internet. The platform offers an interface that is user-friendly, enabling customers to search and view books easily. Through the virtual shopping cart feature, customers can add books to their cart and complete the purchase with ease.
 The online bookstore is designed with two distinct interfaces: one for the administrator and one for the customers. The administrative interface includes a secure login page, a dashboard to manage the store, a page to add products, and a page to view customer orders. The customer interface includes a login page, a registration page for new customers, a page to view available products, a detailed product information page, and a shopping cart page to view items selected for purchase.
